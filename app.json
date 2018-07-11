@@ -1,11 +1,32 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/index/index",
+    "pages/list/list",
+    "pages/search/search"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#25B07C",
+    "navigationBarTitleText": "QQ音乐",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "position":"top",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "推荐",
+      "iconPath": "",
+      "selectedIconPath": ""
+    },{
+      "pagePath": "pages/list/list",
+      "text": "排行榜",
+      "iconPath": "",
+      "selectedIconPath": ""
+    },{
+      "pagePath": "pages/search/search",
+      "text": "搜索",
+      "iconPath": "",
+      "selectedIconPath": ""
+    }]
   }
 }
